@@ -129,6 +129,10 @@ ul {
   margin: 120px 0;
 }
 /* about */
+.about {
+  padding: 120px 0;
+  margin: 0;
+}
 .about-list {
   display: flex;
   text-align: left;
@@ -152,6 +156,10 @@ ul {
   margin: 0;
 }
 /* what we are do */
+.doing {
+  padding-top: 0;
+  margin-top: 0;
+}
 .doing-container {
   display: flex;
   gap: 24px;
@@ -194,15 +202,9 @@ ul {
 }
 .team-list {
   flex-basis: calc((100% - 72px) / 4);
-
-  background: linear-gradient(
-      0deg,
-      rgba(77, 90, 229, 0.1),
-      rgba(77, 90, 229, 0.1)
-    ),
-    url(photo-1545235617-7a424c1a60cc.jpg);
-  background-blend-mode: soft-light, normal;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: var(--color-site);
 }
 .info-team {
@@ -266,6 +268,9 @@ ul {
   color: var(--color-title-secondary);
 }
 /* portfolio */
+.section-filter{
+  padding-bottom: 120px;
+}
 .container-filte {
   padding-bottom: 120px;
 }
@@ -294,8 +299,8 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
-  margin-top: 96px;
-  margin-bottom: 72px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 .about-portgolio {
   display: flex;
@@ -304,17 +309,17 @@ ul {
   row-gap: 48px;
   column-gap: 24px;
   text-align: left;
-  margin-bottom: 120px;
+  
 }
 .app-product {
   flex-basis: calc((100% - 48px) / 3);
-  font-size: 0;
-  line-height: 0;
+  
 }
 .app-title {
   margin: 0;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 .about-app {
   margin: 0;
